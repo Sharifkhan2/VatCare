@@ -1,0 +1,664 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;0,800;1,400;1,500;1,600;1,800&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.header{
+    width: 100%;
+    height: 121px;
+    background-color: #daac00;
+}
+.header .continer{
+    width: 1200px;
+    height: 100%;
+    padding: 0 25px;
+    margin: 0 auto;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.manuber{
+    display: flex;
+    align-items: center;
+
+}
+.manuber li a{
+    padding: 0 15px;
+    display: inline-block;
+    font-size: 29px;
+    font-weight: 500;
+}
+.manuber .scarchber{
+    height: 50px;
+    width: 270px;
+    background-color: #fcc302;
+    border: none;
+}
+.manuber .scarchber::placeholder{
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-left: 20px;
+
+}
+.fontsome-icone{
+    height: 50px;
+    width: 70px;
+    background-color: aqua;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.input-list{
+    position: relative;
+}
+.fa-solid{
+    font-size: 30px;
+    color: #ffffff;
+   
+}
+
+/* ..............heading end .......... */
+
+
+/* ................. banar start........................... */
+
+.main-banner{
+    background-color: #fcc302;
+}
+
+.main-banner .continer{
+    width: 1200px;
+    padding: 0 25px;
+    /* background-color: aqua; */
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 144px;
+    justify-content: space-between;
+    align-items: center
+    
+    
+}
+.main-banner .continer h1{
+
+    font-size: 67px;
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 74px;
+}
+.main-banner .continer p{
+    font-size: 29px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 36px;
+    padding-top: 50px;
+    padding-bottom: 44px;
+}
+.banner-buttons{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 44px;
+}
+.paragraph{
+    margin-top: 180px;
+    padding-right: 40px;
+}
+.img{
+    margin-top: 90px;
+}
+.banner-buttons a{
+    padding: 15px 20px;
+    
+}
+.banner-buttons a:first-child{
+    background-color: #00bec9;
+    border: 3px solid #00bec9;
+    border-radius: 8px;
+    margin-right: 34px;
+}
+.banner-buttons a:last-child{
+border: 3px solid #ffffff;
+border-radius: 8px;
+}
+
+/* ..................the end............  */
+
+
+/* ................thirdpara start...........  */
+
+.thidpara-main{
+    width: 100%;
+    /* background-color: yellowgreen; */
+}
+.thidpara-main .continer{
+    width: 1200px;
+    padding: 0 25px;
+    margin: 0 auto;
+    /* background-color: #00bec9; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    justify-content: center;
+}
+.thidpara-main .continer .text-content h2{
+    font-size: 50px;
+    font-weight: 600;
+    color: #313243;
+    line-height: 55px;
+}
+.thidpara-main .continer .text-content p{
+    font-size: 29px;
+    font-weight: 400;
+    padding-top: 50px;
+    color: #313243;
+    margin-bottom: 30px;
+}
+.thidpara-main .continer .text-content{
+    margin-top: 220px;
+}
+.thidpara-main .continer .thirdpara-img{
+    margin-top: 140px;
+    margin-bottom: 130px;
+}
+
+.thidpara-main .continer .text-content a{
+    padding: 24px 30px;
+    background-color: #fcc302;
+    border-radius: 8px;
+}
+
+
+/* .................the end.............  */
+
+
+/* ..................service section start..........  */
+
+
+.service-section{
+    width: 100%;
+    background-color: #fcc302;
+}
+.service-section .continer{
+    width: 1200px;
+    padding: 0 25px;
+    margin: 0 auto;
+    background-color: #fcc302;
+    padding-top: 106px;
+    padding-bottom: 90px;
+}
+ .service-heading{
+    text-align: center;
+}
+.service-section .continer .service-heading h2{
+    font-size: 75px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.service-section .continer .service-heading p{
+    font-size: 34px;
+    font-weight: 400;
+    padding-top: 50px;
+    padding: 0 124px;
+    color: #ffffff;
+    padding-top: 30px;
+}
+.service-section .continer .service-body{
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-between;
+}
+.service-body .service-item{
+    width: 30%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    
+}
+.service-item1{
+    text-align: center;
+}
+.service-item2{
+    text-align: center;
+
+}
+.service-item3{
+    text-align: center;
+
+}
+
+
+/* .................the end .............  */
+
+/* ................ love of animals start..............  */
+
+.lover-of-animals{
+    /* background-color: aqua; */
+}
+.lover-of-animals .continer{
+    width: 1200px;
+    /* height: 600px; */
+    /* background-color: #daac00; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.lover-of-animals .continer h2{
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 217px;
+    line-height: 54px;
+    text-align: right;
+} 
+.lover-of-animals .continer .imgbody{
+    margin-top: 140px;
+    margin-bottom: 136px;
+    margin-right: 54px;
+}
+.lover-of-animals .continer p{
+    font-size: 29px;
+    font-weight: 400;
+    padding-top: 56px;
+    padding-bottom: 50px;
+    line-height: 35px;
+    text-align: right;
+}
+.lover-of-animals .continer .paragraphbody{
+    position: relative;
+}
+.lover-of-animals .continer a{
+    position: absolute;
+    right: 0;
+    bottom: 214px;
+    background-color: #fcc302;
+    padding: 24px 30px;
+    border-radius: 8px;
+}
+
+
+/* ..................love of animals the end..............  */
+
+
+/* ...................sell section start................  */
+
+
+.get-offer{
+    background-color: #fcc302;
+}
+.get-offer .continer{
+    width: 1200px;
+    background-color: #fcc302;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 106px;
+    
+}
+.get-offer .continer .headingpara{
+    text-align: center;
+    /* margin-top: 116px; */
+}
+.get-offer .continer .headingpara h2{
+    font-size: 75px;
+    font-weight: bold;
+    padding-top: 116px;
+    padding-bottom: 52px;
+}
+.get-offer .continer .headingpara p{
+    font-size: 34px;
+    font-weight: 400;
+    padding: 0 200px;
+}
+.get-offer .continer .cell{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 98px;
+    padding: 0 5px;
+}
+.cell .sellpara{
+    width: 30%;
+}
+.get-offer .continer .cell .sellpara{
+    text-align: center;
+}
+.get-offer .continer .cell p{
+    font-size: 41px;
+    font-weight: 600;
+    
+}
+.taka{
+    margin-right: 30px;
+}
+.get-offer .continer .cell a{
+    padding: 24px 30px;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: #00bec9;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 24px;
+    
+}
+
+
+/* .........................the end....................  */
+
+/* .................vatcare teem start................  */
+
+.vatcare-teem{
+    width: 100%;
+    /* background-color: rgb(244, 140, 4) */
+}
+.vatcare-teem .continer{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 25px;
+    background-color: #ffffff;
+    padding-bottom: 44px;
+}
+.vatcare-teem .continer .heading{
+   text-align: center;
+   padding-top: 140px;
+}
+.vatcare-teem .continer .heading h2{
+    font-size: 75px;
+    font-weight: bold;
+    color: #313243;
+    /* padding-bottom: 46px; */
+   
+}
+.vatcare-teem .continer .heading p{
+    font-size: 34px;
+    font-weight: 400;
+    color: #313243;
+    padding: 0 114px;
+    line-height: 36px;
+    padding-bottom: 96px;
+    padding-top: 46px;
+}
+.vatcare-teem .continer .doctor-img{
+    display: flex;
+    justify-content: space-between;
+}
+.vatcare-teem .continer .doctor-img .doctor{
+    width: 30%;
+    text-align: center;
+
+}
+.vatcare-teem .continer .doctor-img .doctor h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.vatcare-teem .continer .doctor-img .doctor h3{
+    font-size: 25px;
+    font-weight: 400;
+}
+.fontawesome{
+    display: flex;
+    padding-left: 80px;
+    padding-top: 20px;
+   
+}
+.fontawesome .box{
+    padding-right: 30px;
+    font-size: 20px;
+    color: #ffffff;
+
+   
+}
+.fontawesome .instagram{
+  background-color: #daac00;
+  width: 15px;
+  height: 30px;
+  padding-left: 12px;
+  border-radius: 16px;
+  padding-top: 1px;
+}
+.fontawesome .facebook{
+    background-color: #daac00;
+    width: 15px;
+    height: 30px;
+    padding-left: 12px;
+    border-radius: 16px;
+    padding-top: 1px;
+  }
+  .fontawesome .twitter{
+    background-color: #daac00;
+    width: 15px;
+    height: 30px;
+    padding-left: 12px;
+    border-radius: 16px;
+    padding-top: 1px;
+  }
+  .fontawesome .whatsapp{
+    background-color: #daac00;
+    width: 15px;
+    height: 30px;
+    padding-left: 12px;
+    border-radius: 16px;
+    padding-top: 1px;
+  }
+
+  /* .....................the end..................  */
+
+
+  /* ..........................hospital start...................  */
+
+.hospital{
+    width: 100%;
+    background-color: red;
+}
+.hospital .continer{
+    width: 100%;
+    height: 572px;
+    margin: 0 auto;
+    padding: 0 100px;
+    background-color: yellow;
+    background-image: url(./img/background-img.png );
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    
+}
+.hospital .continer .happy a{
+    font-size: 41px;
+    font-weight: 500;
+    margin-left: 50px;
+}
+.hospital .continer .happy h2{
+    font-size: 37px;
+    font-weight: bold;
+    color: #ffffff;
+    
+}
+
+.hospital .continer .happy1{
+    position: absolute;
+    left: 160px;
+    top: 290px;
+
+}
+.hospital .continer .happy2{
+    position: absolute;
+    left: 630px;
+    top: 290px;
+
+}
+
+.hospital .continer .happy3{
+    position: absolute;
+    right: 200px;
+    top: 290px;
+
+}
+
+
+/* ........................the end.................  */
+
+/* ....................... recent-posts start....................  */
+
+
+.Recent-Posts{
+    width: 100%;
+    /* background-color: #ffffff; */
+}
+.Recent-Posts .continer{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 25px;
+    background-color:#ffffff;
+}
+.Recent-Posts .continer .heading{
+    text-align: center;
+    padding-top: 140px;
+}
+.Recent-Posts .continer .heading h2{
+    font-size: 75px;
+    font-weight: bold;
+    color: #333445;
+    
+}
+.Recent-Posts .continer .heading p{
+    font-size: 34px;
+    font-weight: 400;
+    color: #333445;
+    line-height: 37px;
+    padding: 0 114px;
+    padding-top: 46px;
+}
+.Recent-Posts .continer .imgdiv{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 96px;
+    padding-bottom: 145px;
+
+}
+.Recent-Posts .continer .imgdiv .postimg{
+    width: 31%;
+}
+.Recent-Posts .continer .imgdiv .postimg h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: #363647;
+}
+.Recent-Posts .continer .imgdiv .postimg h3{
+    font-size: 16px;
+    font-weight: 400;
+    color: #55d4db;
+
+}
+.Recent-Posts .continer .imgdiv .postimg p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #363647;
+}
+.Recent-Posts .continer .imgdiv .postimg .para5{
+    font-size: 20px;
+    font-weight: 500;
+    color: #55d4db;
+}
+
+
+/* .........................the end....................  */
+
+.lestpara{
+    width: 100%;
+    background-color: #282828;
+}
+.lestpara .continer{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 25px;
+    background-color: #343434;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 164px;
+    padding-bottom: 110px;
+}
+.lestpara .continer .content1{
+    width: 240px;
+
+}
+.lestpara .continer .content2{
+    width: 236px;
+
+}
+.lestpara .continer .content3{
+    width: 560px;
+    text-align: right;
+}
+.lestpara .continer .content h2{
+     font-size: 38px;
+     font-weight: 600;
+     color: #ffffff;
+}
+.lestpara .continer .content p{
+    font-size: 25px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.lestpara .continer .content3 h2{
+    font-size: 38px;
+     font-weight: 600;
+     color: #ffffff;
+}
+.lestpara .continer .content3 p{
+    font-size: 25px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.content3 .scarch1{
+    padding-top: 54px;
+}
+.content3 .scarch1 .scarch2{
+    font-size: 35px;
+    background-color: #fcc302;
+    border: none;
+    
+}
+.scarch1 {
+    position: relative;
+}
+.rocket{
+    position: absolute;
+   width: 90px; 
+   height: 52.5px;
+   background-color:#00bec9;
+   right: 0;
+   bottom: 0;
+   align-items: center;
+   justify-content: center;
+  
+}
+.rocket{
+    font-size: 40px;
+    padding-top: 0;
+    padding-right: 25px;
+   
+}
+
+
+
+
+
+
