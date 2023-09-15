@@ -598,6 +598,7 @@ border-radius: 8px;
     font-size: 25px;
     font-weight: 400;
     color: #fff;
+    padding-bottom: 16px;
 }
 .lestpara .continer .content1{
     width: 25%;
@@ -608,6 +609,7 @@ border-radius: 8px;
 .lestpara .continer .content3{
    width: 45%;
    text-align: right;
+
 }
 .lestpara .continer .content3 .search2{
     width: 100%;
