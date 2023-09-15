@@ -355,11 +355,11 @@ border-radius: 8px;
     margin-right: 30px;
 }
 .get-offer .continer .cell a{
-    padding: 24px 30px;
+    padding: 10px 40px;
     font-size: 25px;
     font-weight: 600;
     background-color: #00bec9;
-    border-radius: 8px;
+    border-radius: 50px;
     display: inline-block;
     margin-top: 24px;
     
