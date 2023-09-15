@@ -91,8 +91,8 @@ a{
     /* background-color: aqua; */
     margin: 0 auto;
     display: flex;
-    padding-bottom: 144px;
-    justify-content: space-between;
+    padding-bottom: 190px;
+    justify-content: spgit push -u origin mainace-between;
     align-items: center
     
     
@@ -102,15 +102,15 @@ a{
     font-size: 67px;
     font-weight: 800;
     color: #ffffff;
-    line-height: 74px;
+    line-height: 70px;
 }
 .main-banner .continer p{
     font-size: 29px;
     font-weight: 400;
     color: #ffffff;
     line-height: 36px;
-    padding-top: 50px;
-    padding-bottom: 44px;
+    margin-top: 51px;
+    /* margin-bottom: 48px; */
 }
 .banner-buttons{
     font-size: 20px;
@@ -120,13 +120,17 @@ a{
 .paragraph{
     margin-top: 180px;
     padding-right: 40px;
+    
 }
 .img{
     margin-top: 90px;
 }
 .banner-buttons a{
     padding: 15px 20px;
-    
+      
+}
+.banner-buttons{
+    margin-top: 48px;
 }
 .banner-buttons a:first-child{
     background-color: #00bec9;
@@ -170,6 +174,8 @@ border-radius: 8px;
     padding-top: 50px;
     color: #313243;
     margin-bottom: 30px;
+    padding-bottom: 50px;
+    line-height: 29px;
 }
 .thidpara-main .continer .text-content{
     margin-top: 220px;
@@ -342,6 +348,7 @@ border-radius: 8px;
 .get-offer .continer .cell p{
     font-size: 41px;
     font-weight: 600;
+    color: #fff;
     
 }
 .taka{
@@ -411,51 +418,21 @@ border-radius: 8px;
     font-size: 25px;
     font-weight: 400;
 }
-.fontawesome{
-    display: flex;
-    padding-left: 80px;
-    padding-top: 20px;
-   
-}
-.fontawesome .box{
-    padding-right: 30px;
+.vatcare-teem .continer .fontawesome a{
+  
+    padding: 0 5px;
     font-size: 20px;
-    color: #ffffff;
-
+}
+.fontawesome .fa-brands{
+    padding: 10px 10px;
+    background-color: #fcc302;
+    border-radius: 50%;
+    margin-top: 32px;
+}
    
-}
-.fontawesome .instagram{
-  background-color: #daac00;
-  width: 15px;
-  height: 30px;
-  padding-left: 12px;
-  border-radius: 16px;
-  padding-top: 1px;
-}
-.fontawesome .facebook{
-    background-color: #daac00;
-    width: 15px;
-    height: 30px;
-    padding-left: 12px;
-    border-radius: 16px;
-    padding-top: 1px;
-  }
-  .fontawesome .twitter{
-    background-color: #daac00;
-    width: 15px;
-    height: 30px;
-    padding-left: 12px;
-    border-radius: 16px;
-    padding-top: 1px;
-  }
-  .fontawesome .whatsapp{
-    background-color: #daac00;
-    width: 15px;
-    height: 30px;
-    padding-left: 12px;
-    border-radius: 16px;
-    padding-top: 1px;
-  }
+
+
+  
 
   /* .....................the end..................  */
 
@@ -509,7 +486,6 @@ border-radius: 8px;
     position: absolute;
     right: 200px;
     top: 290px;
-
 }
 
 
@@ -548,34 +524,52 @@ border-radius: 8px;
 }
 .Recent-Posts .continer .imgdiv{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 96px;
     padding-bottom: 145px;
 
 }
 .Recent-Posts .continer .imgdiv .postimg{
-    width: 31%;
+    width: 30%;
 }
-.Recent-Posts .continer .imgdiv .postimg h2{
+.Recent-Posts .continer .imgdiv .histroy h2{
+    padding: 0 30px;
     font-size: 25px;
     font-weight: 600;
     color: #363647;
+    line-height: 27px;
 }
-.Recent-Posts .continer .imgdiv .postimg h3{
+.Recent-Posts .continer .imgdiv .histroy h3{
     font-size: 16px;
     font-weight: 400;
     color: #55d4db;
+    padding-left: 30px;
+    margin-top: 19px;
+    margin-bottom: 32px;
+    
 
 }
-.Recent-Posts .continer .imgdiv .postimg p{
+.Recent-Posts .continer .imgdiv .histroy p{
     font-size: 16px;
     font-weight: 400;
     color: #363647;
+    padding-left: 30px;
+    
 }
-.Recent-Posts .continer .imgdiv .postimg .para5{
+.Recent-Posts .continer .imgdiv .histroy .para5{
     font-size: 20px;
     font-weight: 500;
     color: #55d4db;
+    margin-bottom: 30px;
+    margin-top: 32px;
+}
+.Recent-Posts .continer .imgdiv .histroy1{
+    border: 2px solid #bfbebe;
+    border-top: none;
+}
+.Recent-Posts .continer .imgdiv .histroy3{
+    border: 2px solid #bfbebe;
+    border-top: none;
 }
 
 
@@ -583,7 +577,7 @@ border-radius: 8px;
 
 .lestpara{
     width: 100%;
-    background-color: #282828;
+    background-color: #343434;
 }
 .lestpara .continer{
     width: 1200px;
@@ -592,70 +586,84 @@ border-radius: 8px;
     background-color: #343434;
     display: flex;
     justify-content: space-between;
-    padding-top: 164px;
-    padding-bottom: 110px;
-}
-.lestpara .continer .content1{
-    width: 240px;
-
-}
-.lestpara .continer .content2{
-    width: 236px;
-
-}
-.lestpara .continer .content3{
-    width: 560px;
-    text-align: right;
+    padding-top: 168px;
+    padding-bottom: 120px;
 }
 .lestpara .continer .content h2{
-     font-size: 38px;
-     font-weight: 600;
-     color: #ffffff;
+    font-size: 38px;
+    font-weight: 800;
+    color: #fff;
 }
-.lestpara .continer .content p{
+.lestpara .continer .content h3{
     font-size: 25px;
     font-weight: 400;
-    color: #ffffff;
+    color: #fff;
+}
+.lestpara .continer .content1{
+    width: 25%;
+}
+.lestpara .continer .content2{
+   width: 20%;
+}
+.lestpara .continer .content3{
+   width: 45%;
+   text-align: right;
+}
+.lestpara .continer .content3 .search2{
+    width: 100%;
+    height: 90px;
+    background-color: #daac00;
+    border: 3px solid #daac00;
+    
 }
 .lestpara .continer .content3 h2{
     font-size: 38px;
-     font-weight: 600;
-     color: #ffffff;
+    font-weight: 800;
+    color: #fff;
 }
 .lestpara .continer .content3 p{
     font-size: 25px;
     font-weight: 400;
-    color: #ffffff;
+    color: #fff;
+    margin-bottom: 54px;
 }
-.content3 .scarch1{
-    padding-top: 54px;
+.lestpara .continer .content3 .fa-brands{
+   
+   padding: 15px 15px;
+   background-color: #fff;
+    border-radius: 50%;
+    margin-top: 45px;
+   
+ 
 }
-.content3 .scarch1 .scarch2{
-    font-size: 35px;
-    background-color: #fcc302;
-    border: none;
+.lestpara .continer .content3 .fontawesome-icone a{
     
-}
-.scarch1 {
-    position: relative;
-}
-.rocket{
-    position: absolute;
-   width: 90px; 
-   height: 52.5px;
-   background-color:#00bec9;
-   right: 0;
-   bottom: 0;
-   align-items: center;
-   justify-content: center;
-  
-}
-.rocket{
-    font-size: 40px;
-    padding-top: 0;
-    padding-right: 25px;
+    padding:0 10px;
+    font-size: 20px;
+    color: black;
+    
    
 }
+.list-item{
+    position: relative;
+}
+.list-item .rocat{
+    width: 144px;
+    height: 90px;
+    background-color: #00bec9;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.font6{
+    font-size: 40px;
+    color: #fff;
+}
+
+
 
 
 
